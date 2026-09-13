@@ -6,3 +6,8 @@ print("units used : ", electricity_units)
 
 if electricity_units < 0:
     print("Invalid units")
+elif electricity_units<=100 :
+    bill = electricity_units*5
+elif electricity_units<=200 :
+    bill= (100*5)+(electricity_units- 100)*7
+    
