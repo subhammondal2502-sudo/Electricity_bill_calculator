@@ -14,3 +14,8 @@ else:
         bill= (100*5)+(100*7)+(100*10)+(electricity_units-300)*12    
 if bill > 2000:
         surcharge = bill * 0.1
+ else:
+        surcharge = 0
+    print("surcharge :", surcharge)
+    final_bill = bill + surcharge
+    print("final_bill :", final_bill)
