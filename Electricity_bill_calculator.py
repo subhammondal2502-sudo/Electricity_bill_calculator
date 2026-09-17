@@ -13,7 +13,8 @@ else:
     elif electricity_units<=300 :
         bill = (100*5)+(100*7)+(electricity_units-200)*10
     else:
-        bill= (100*5)+(100*7)+(100*10)+(electricity_units-300)*12    
+        bill= (100*5)+(100*7)+(100*10)+(electricity_units-300)*12 
+        
     if bill > 2000:
         surcharge = bill * 0.1
     else:
